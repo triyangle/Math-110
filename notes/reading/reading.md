@@ -42,3 +42,16 @@ B^{\top} & D^{\top}
 $W = R\left( \left( T - \lambda_{k} I \right)^{m} \right)$ $T$-invariant
 * $T\left(\left( T - \lambda_k I \right)^{m}(x)\right) = \left( T - \lambda_k I
     \right)^{m} T(x) \in R\left( \left( T - \lambda_k I \right)^{m}  \right) $
+
+# 5 Diagonalization
+## 5.3 Matrix Limits and Markov Chains
+$\lim_{m \to \infty} \lambda^{m}$ exists $\iff$ $\lambda \in S = \{\lambda \in
+\mathbb{C} : |\lambda| < 1 \text{ or } \lambda = 1\}$ 
+* $\impliedby : $ $\lambda = 1 \implies \lim_{m \to \infty} \lambda^{m} = 1$,
+    $|\lambda| < 1 \implies r < 1 \implies \lim_{m \to \infty} \left(re^{i
+    \theta}\right) = 0$ 
+* $\implies : $ for $\lim_{m \to \infty} \left(re^{i\theta}\right)^{m}$ to
+    converge, must have $r \leq 1$. In particular, when $r = 1$, limit only converges
+    for $\theta = 0$, corresponding to the $\lambda = 1$ case. When $r < 1$,
+    the limit converges to 0 for all values of $\theta$, corresponding to the
+    $|\lambda| < 1$ case.
